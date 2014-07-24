@@ -1,0 +1,20 @@
+@-webkit-keyframes slideOutLeft {
+	to { -webkit-transform: translateY(-100%); }
+}
+
+@-webkit-keyframes slideInBottom {
+	from 	{ -webkit-transform:translateY(100%); }
+	to 		{ -webkit-transform:translateY(0); }
+}
+
+.wrapper + .wrapper{
+  //margin-top:0;
+}
+
+.ng-enter{
+   -webkit-animation: slideInBottom 1s both ease-in; z-index: 8888;
+}
+
+.ng-leave{
+   -webkit-animation: slideOutLeft 1s both ease-in; z-index: 9999;
+}

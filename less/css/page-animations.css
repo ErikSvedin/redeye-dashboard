@@ -1,0 +1,5 @@
+@-webkit-keyframes slideOutLeft {
+  to {
+    -webkit-transform: translateX(-100%);
+  }
+}
